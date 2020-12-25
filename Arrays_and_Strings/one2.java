@@ -1,3 +1,5 @@
+package Arrays_and_Strings;
+
 class solution2 {
     // solution 1
     // inefficient
@@ -16,6 +18,8 @@ class solution2 {
     }
 
     // solution 2
+    // time complexity O(n) because loop through each string once = 2n
+    // space complexity is O(1) because it is a fixed array
     public boolean permutation_2(String s1, String s2) {
         if (s1.length() != s2.length())
             return false;

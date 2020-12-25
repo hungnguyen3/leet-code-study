@@ -1,3 +1,5 @@
+package Arrays_and_Strings;
+
 class solution1 {
     // solution 1
     // time complexity O(n) with n is the length of the string
